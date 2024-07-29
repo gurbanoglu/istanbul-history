@@ -14,6 +14,7 @@ body {
 .timeline {
   display: grid;
   grid-template-columns: repeat(2, auto);
+  grid-column-gap: 2%;
 }
 
 .icon {
@@ -24,6 +25,7 @@ body {
   grid-row: 1/3;
   background: linear-gradient(to right, #3594cc 45%, #b1dcf5 45%, #b1dcf5 45%, #3594cc 50%);
   color: #fff;
+  /* margin-right: 10px; */
 }
 
 /*Targets the <img> element rather
@@ -77,6 +79,7 @@ img {
 @media(min-width: 640px) {
   .timeline {
     grid-template-columns: 45% auto 45%;
+    grid-column-gap: 0;
   }
 
   .text {
