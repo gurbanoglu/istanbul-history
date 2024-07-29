@@ -20,17 +20,26 @@ body {
 
 .icon {
   display: flex;
+
+  /*The justify-content property aligns the
+    flexible container's items when the items
+    do not use all available space on the
+    main-axis (horizontally).*/
   justify-content: center;
+
+  /*The align-self property specifies the alignment
+    in the block direction for the selected item
+    inside a flexbox or grid container.*/
+  align-self: stretch;
   margin: 0 auto;
   grid-column-start: 1;
   grid-row: 1/3;
   background: linear-gradient(to right, #3594cc 45%, #b1dcf5 45%, #b1dcf5 45%, #3594cc 50%);
   color: #fff;
-  /* margin-right: 10px; */
 }
 
-/*Targets the <img> element rather
-  than the "image" class.*/
+/*Targets the HTML <img> element rather
+  than a CSS class named "image".*/
 img {
   width: 100%;
 }
