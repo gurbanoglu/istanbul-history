@@ -18,6 +18,8 @@ body {
 
 .icon {
   display: flex;
+  justify-content: center;
+  margin: 0 auto;
   grid-column-start: 1;
   grid-row: 1/3;
   background: linear-gradient(to right, #3594cc 45%, #b1dcf5 45%, #b1dcf5 45%, #3594cc 50%);
@@ -106,9 +108,6 @@ img {
 
 span {
   font-size: 20px;
-
-  /*margin: top-bottom left-right*/
-  margin: 0 15px;
   background: #46a4da;
   border-radius: 50px;
   width: 50px;
