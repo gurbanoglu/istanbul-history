@@ -15,6 +15,7 @@ body {
   display: grid;
   grid-template-columns: repeat(2, auto);
   grid-column-gap: 2%;
+  align-items: start;
 }
 
 .icon {
